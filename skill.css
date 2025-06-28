@@ -1,0 +1,72 @@
+/* Skills Section */
+#skills {
+  background: #f5f5f5;
+  color: #333;
+  padding: 40px 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#skills h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.progress {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  padding-right: 8px;
+  font-size: 0.9em;
+  line-height: 20px;
+}
+
+/* Individual colors and widths */
+.progress-bar.html {
+  width: 80%;
+  background: #e44d26;
+}
+
+.progress-bar.css {
+  width: 50%;
+  background: #264de4;
+}
+
+.progress-bar.js {
+  width: 75%;
+  background: #f0db4f;
+  color: #000;
+}
+
+.progress-bar.php {
+  width: 70%;
+  background: #8892be;
+}
+
+.progress-bar.postgres {
+  width: 80%;
+  background: #336791;
+}
+.skill p i {
+  margin-right: 8px;
+  color: #333;
+}
